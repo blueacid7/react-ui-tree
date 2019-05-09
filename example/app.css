@@ -13,7 +13,15 @@ body {
 }
 
 .inspector {
-  margin-left: 400px;
+  margin-left: 340px;
+  margin-Top: 50px;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .inspector pre {

@@ -1,12 +1,12 @@
 {
-  "name": "react-ui-tree",
+  "name": "react-ui-spa",
   "version": "4.0.0",
   "description": "React tree component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "index.d.ts",
   "scripts": {
-    "start": "webpack-dev-server --port=8080",
+    "start": "webpack-dev-server --port=8000",
     "build": "rollup -c",
     "build-example": "webpack --mode production",
     "deploy": "webpack --mode production && github-pages-deploy",
@@ -24,9 +24,9 @@
     "react-component",
     "tree"
   ],
-   "files": [
-     "index.d.ts",
-     "dist"
+  "files": [
+    "index.d.ts",
+    "dist"
   ],
   "author": "Wang Zuo",
   "license": "MIT",
@@ -40,9 +40,16 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "classnames": "^2.2.5",
+    "draft-js": "^0.10.5",
+    "html-to-draftjs": "^1.4.0",
     "js-tree": "^2.0.1",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "react-burger-menu": "^2.6.10",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-ui-tree": "^4.0.0"
   },
   "jest": {
     "collectCoverage": true,

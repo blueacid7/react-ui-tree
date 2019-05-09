@@ -1,93 +1,176 @@
 module.exports = {
-  module: 'react-ui-tree',
+  module: 'Tree Collection',
   children: [
     {
-      module: 'dist',
+      module: 'Collection.1',
+      children: [
+        {
+          module: 'Collection.1.1',
+          collapsed: false,
+          children: [
+            {
+              module: 'Collection.1.1.1',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            },
+            {
+              module: 'Collection.1.1.2',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          module: 'Collection.1.2',
+          collapsed: false,
+          children: [
+            {
+              module: 'Collection.1.2.1',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            },
+            {
+              module: 'Collection.1.2.2',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      module: 'Collection.2',
       collapsed: true,
       children: [
         {
-          module: 'node.js',
-          leaf: true
+          module: 'Collection.2.1',
+          collapsed: true,
+          children: [
+            {
+              module: 'Collection.2.1.1',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            },
+            {
+              module: 'Collection.2.1.2',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            }
+          ]
         },
         {
-          module: 'react-ui-tree.css',
-          leaf: true
-        },
-        {
-          module: 'react-ui-tree.js',
-          leaf: true
-        },
-        {
-          module: 'tree.js',
-          leaf: true
+          module: 'Collection.2.1',
+          collapsed: false,
+          children: [
+            {
+              module: 'Collection.2.1.1',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            },
+            {
+              module: 'Collection.2.1.2',
+              children: [
+                {
+                  module: 'Quiz',
+                  leaf: true,
+                },
+                {
+                  module: 'Videos',
+                  leaf: true
+                },
+                {
+                  module: 'WYSIWYG Editor',
+                  leaf: true
+                }
+              ]
+            }
+          ]
         }
       ]
-    },
-    {
-      module: 'example',
-      children: [
-        {
-          module: 'app.js',
-          leaf: true
-        },
-        {
-          module: 'app.less',
-          leaf: true
-        },
-        {
-          module: 'index.html',
-          leaf: true
-        }
-      ]
-    },
-    {
-      module: 'lib',
-      children: [
-        {
-          module: 'node.js',
-          leaf: true
-        },
-        {
-          module: 'react-ui-tree.js',
-          leaf: true
-        },
-        {
-          module: 'react-ui-tree.less',
-          leaf: true
-        },
-        {
-          module: 'tree.js',
-          leaf: true
-        }
-      ]
-    },
-    {
-      module: '.gitiignore',
-      leaf: true
-    },
-    {
-      module: 'index.js',
-      leaf: true
-    },
-    {
-      module: 'LICENSE',
-      leaf: true
-    },
-    {
-      module: 'Makefile',
-      leaf: true
-    },
-    {
-      module: 'package.json',
-      leaf: true
-    },
-    {
-      module: 'README.md',
-      leaf: true
-    },
-    {
-      module: 'webpack.config.js',
-      leaf: true
     }
   ]
 };
